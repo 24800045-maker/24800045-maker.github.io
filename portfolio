@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srivan | Professional Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <div class="logo">Srivan<span>.</span></div>
+            <div class="hamburger" id="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links" id="nav-links-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="profile-pic-container">
+                <img src="profile.jpg" alt="Srivan's Profile Picture" class="profile-pic">
+            </div>
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Srivan</span></h1>
+                <p>A responsible and motivated student with excellent technical abilities in software and applications. Passionate about taking on challenges and applying my skills in the workplace.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/srivan-nagalingam-a31446301" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:nsrivan03@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>I am a dedicated student with strong decision-making skills, a knack for quick learning, and a talent for team collaboration. My adaptability and exceptional time management make me a reliable team member. I am eager to contribute my educational background and technical skills to a professional environment.</p>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p><strong>Achariya Arts and Science College</strong>, Pondicherry</p>
+                <p><em>08/2021 - 06/2024</em></p>
+                <p>CGPA: 6.9 / 10</p>
+            </div>
+            <div class="education-item">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p><strong>Sri Saraswathi Vidhyalaya School</strong>, Cuddalore</p>
+                <p><em>08/2019 - 05/2021</em></p>
+                <p>Percentage: 78%</p>
+            </div>
+            <div class="education-item">
+                <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                <p><strong>Sri Saraswathi Vidhyalaya School</strong>, Cuddalore</p>
+                <p><em>08/2017 - 05/2019</em></p>
+                <p>Percentage: 58.8%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills & Certifications</h2>
+        <div class="skills-container">
+            <div class="skills-list">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li><i class="fab fa-python"></i> Python</li>
+                    <li><i class="fas fa-chart-pie"></i> Microsoft Power BI</li>
+                    <li><i class="fas fa-file-excel"></i> Microsoft Excel</li>
+                </ul>
+            </div>
+            <div class="certifications-list">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>HP Data Science and Analytics</li>
+                    <li>Microsoft Power BI for Beginners</li>
+                    <li>Data Visualization and Analytics</li>
+                    <li>Microsoft Excel</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Surplus Food Management System</h3>
+                <p>Developed a comprehensive application to help manage and distribute surplus food resources efficiently, aiming to reduce waste and support communities.</p>
+            </div>
+            <div class="project-card">
+                <h3>Online Book Store</h3>
+                <p>Created a user-friendly e-commerce website that allows users to easily buy and sell books online, facilitating a marketplace for book lovers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>I'm currently seeking new opportunities. Feel free to reach out!</p>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Cuddalore, Tamil Nadu</p>
+            <p><i class="fas fa-phone"></i> +91 6369621967</p>
+            <p><i class="fas fa-envelope"></i> nsrivan03@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Srivan Nagalingam. All Rights Reserved.</p>
+    </footer>
+
+    <button id="back-to-top" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
